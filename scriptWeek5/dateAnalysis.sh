@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#This is used to distinguish weather a specific date exist amongst data.
+#This is used to distinguish wether a specific date exist amongst data or text.
 
 a=2018
 
