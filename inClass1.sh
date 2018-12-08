@@ -17,11 +17,14 @@ do
 
 	# count the number of integers less than ten
 	if [ $i -lt 10 ]
-then
-	count=$(($count+1))
+	then
+		count=$(($count+1))
 	fi
 done
 
 # Print Values Calculated
 echo "Total: $total"
 echo "Count under 10: $count"
+
+# DB: Good! But it would be easier if you could pass the numbers on the command line, rather
+#     than prompting and waiting.
