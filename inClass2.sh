@@ -7,3 +7,5 @@ echo "Input name of space delimited data file."
 read fileName
 
 cat $fileName | ./inClass1.sh
+
+# DB: Good! Creative.
